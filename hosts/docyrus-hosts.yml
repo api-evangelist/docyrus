@@ -1,0 +1,91 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 6
+  own: 2
+  other_domain: 2
+  platform: 2
+  roles:
+  - api
+  - collections
+  - identity
+  - source
+  - website
+hosts:
+- host: api.docyrus.app
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: docyrus.app
+  role: api
+  relation: other-domain
+- host: api.docyrus.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: docyrus.com
+  role: api
+  relation: own
+- host: docyrus.app
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - SignUp
+  serves: []
+  registrable_domain: docyrus.app
+  role: identity
+  relation: other-domain
+- host: docyrus.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - DeveloperPortal
+  - Website
+  - Documentation
+  - APIReference
+  - Support
+  - Blog
+  - Pricing
+  - TermsOfService
+  - PrivacyPolicy
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: docyrus.com
+  role: website
+  relation: own
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: www.postman.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Postman
+  serves:
+  - api-collections
+  vendor: postman
+  registrable_domain: postman.com
+  role: collections
+  relation: platform

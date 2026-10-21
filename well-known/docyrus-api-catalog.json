@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://api.docyrus.com",
+      "service-desc": [
+        {
+          "href": "https://api.docyrus.com/openapi.json",
+          "type": "application/vnd.oai.openapi+json;version=3.0"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://docyrus.com/platform/developers/api/",
+          "type": "text/html"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://api.docyrus.com/health",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

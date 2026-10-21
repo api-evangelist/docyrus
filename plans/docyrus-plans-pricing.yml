@@ -1,0 +1,33 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docyrus.com/pricing/
+sources:
+- https://docyrus.com/pricing/
+- https://docyrus.com/pricing.md
+- https://docyrus.com/
+name: Docyrus, Inc. pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Starter
+  price_text: $29/mo billed annually
+  price: 29
+  description: Free for first 6 months on annual billing; monthly billing $36/mo
+- name: Pro
+  price_text: $99/mo billed annually
+  price: 99
+  description: Monthly billing $125/mo
+- name: Growth
+  price_text: $349/mo billed annually
+  price: 349
+  description: Monthly billing $435/mo
+- name: Scale
+  price_text: $899/mo billed annually
+  price: 899
+  description: Monthly billing $1,125/mo
+- name: Prime
+  price_text: $1,999/mo billed annually
+  price: 1999
+  description: Monthly billing $2,499/mo
+docs: https://docyrus.com/pricing/

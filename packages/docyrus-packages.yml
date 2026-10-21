@@ -1,0 +1,9 @@
+generated: '2026-10-20'
+method: searched
+source: https://registry.npmjs.org/@docyrus/api-client
+packages:
+  - name: "@docyrus/api-client"
+    registry: "npm"
+    official: true
+    version: "0.3.6"
+    published: "2026-07-05"

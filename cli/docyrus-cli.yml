@@ -1,0 +1,47 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docyrus.com/platform/products/for-agents/docyrus-cli-app/
+sources:
+- https://docyrus.com/platform/products/for-agents/docyrus-cli-app/
+- https://docyrus.com/
+- https://docyrus.com/platform/developers/data-mcp/
+- https://docyrus.com/platform/developers/open-source/
+install:
+- method: npm
+  command: pnpm add -g @docyrus/docyrus
+commands:
+- group: auth
+  commands:
+  - docyrus auth login --clientId "83a8df32-3738-4b5a-a0c7-87976adb1631" --json
+  - docyrus auth tenants use 1002 --json
+  - docyrus auth who --json
+- group: env
+  commands:
+  - docyrus env list --json
+  - docyrus env use beta --json
+- group: studio
+  commands:
+  - docyrus studio list-data-sources --appSlug crm --expand fields --json
+- group: ds
+  commands:
+  - docyrus ds list crm contacts --columns "name,email,status" --limit 20
+  - docyrus ds update crm contacts REC_102 --data '{"status":"active"}'
+- group: discover
+  commands:
+  - docyrus discover namespaces --json
+  - docyrus discover endpoint /v1/users/me --json
+- group: curl
+  commands:
+  - docyrus curl /v1/users/me -i
+- group: ai
+  commands:
+  - docyrus ai "Summarize open incidents"
+- group: chrome
+  commands:
+  - docyrus chrome content https://status.acme.app
+- group: tui
+  commands:
+  - docyrus tui
+binary: docyrus
+docs: https://docyrus.com/platform/products/for-agents/docyrus-cli-app/

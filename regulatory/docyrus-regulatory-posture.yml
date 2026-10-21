@@ -1,0 +1,37 @@
+generated: '2026-10-20'
+method: probed
+source: https://docyrus.com/privacy-policy/
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://docyrus.com/privacy-policy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "The easiest way to exercise your rights is by emailing a data subject access request to admin@docyrus.com, or by contacting us."
+        note: Provides email address for data subject access requests.
+      - source: https://docyrus.com/privacy-policy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "please email your data subject access request to admin@docyrus.com."
+        note: Reiterates request process.
+  subprocessors:
+    evidence:
+      - source: https://docyrus.com/privacy-policy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "OpenAI, Anthropic, Google (Gemini models), Microsoft Azure (OpenAI models hosted on Microsoft Azure)"
+        note: Lists AI model providers used as subprocessors.
+  ai_transparency:
+    evidence:
+      - source: https://docyrus.com/privacy-policy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "We do not train or host our own AI models. To produce an answer, Docyrus sends the following from our servers to third-party AI model providers over their commercial APIs: ... The assistant does not receive workspace data that you are not authorized to access, and we do not send your payment card details or your account password to any AI model provider."
+        note: Describes AI data handling and transparency.
+  data_residency:
+    evidence:
+      - source: https://docyrus.com/privacy-policy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "These providers may be located in, or operate infrastructure in, countries outside your country of residence, including the United States and the European Union."
+        note: Mentions cross-border data transfers.

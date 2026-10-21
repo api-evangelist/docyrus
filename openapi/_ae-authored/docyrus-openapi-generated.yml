@@ -1,0 +1,135 @@
+openapi: 3.1.0
+info:
+  title: Docyrus, Inc. API
+  version: '2026-10-20'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-20: 5 operation(s) read from 4 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; Docyrus, Inc. has published no machine-readable contract that
+    the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 1
+    documentation: 4
+    pages-with-code: 2
+    pages-read: 4
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-20'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://docyrus.com/platform/developers/api
+  - https://docyrus.com/tr/platform/developers/api
+  - https://docyrus.com/platform/products/for-agents/docyrus-cli-app
+  - https://docyrus.com/tr/platform/products/for-agents/docyrus-cli-app
+paths:
+  /:
+    get:
+      operationId: get
+      tags:
+      - Api
+      summary: GET /
+      x-source: https://docyrus.com/platform/products/for-agents/docyrus-cli-app
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: 'curl` when you need direct request-level control. OpenAPI cache Endpoint search Direct requests docyrus discover namespaces
+          --json
+
+          docyrus discover endpoint /v1/users/me --json
+
+          docyrus curl /v1/users/me -i Operator tooling Operator helpers for AI and browser workflows Run `docyrus ai` for agent chat, use Chrome
+          automation helpers, or launch the Bun-powered TUI when a visual terminal workflow fits '
+  /records:
+    post:
+      operationId: post_records
+      tags:
+      - Records
+      summary: Create records with the same validation and permission model used inside Docyrus apps.
+      x-source: https://docyrus.com/platform/developers/api
+      responses:
+        '201':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /records/{id}:
+    get:
+      operationId: get_records_id
+      tags:
+      - Records
+      summary: Fetch tenant-scoped records with relationships and computed fields resolved.
+      x-source: https://docyrus.com/platform/developers/api
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+    put:
+      operationId: put_records_id
+      tags:
+      - Records
+      summary: Update live data, workflows, and automations without a separate orchestration layer.
+      x-source: https://docyrus.com/platform/developers/api
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /v1/ds/projects/{rec9381}:
+    get:
+      operationId: get_v1_ds_projects_rec9381
+      tags:
+      - Ds
+      summary: Request example GET /v1/ds/projects/REC_9381
+      x-source: https://docyrus.com/platform/developers/api
+      parameters:
+      - name: rec9381
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetV1DsProjectsRec9381Response'
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    GetV1DsProjectsRec9381Response:
+      type: object
+      properties:
+        success:
+          type: boolean
+        data:
+          type: object
+          description: Project record data
+        data.id:
+          type: string
+        data.name:
+          type: string
+        data.status:
+          type: string
+        data.owner:
+          type: string
+tags:
+- name: Api
+- name: Ds
+- name: Records

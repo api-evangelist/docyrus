@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/docyrus/main/json-schema/docyrus-get-v1-ds-projects-rec9381-response-schema.json",
+  "title": "GetV1DsProjectsRec9381Response",
+  "x-generated": "2026-10-20",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/docyrus-openapi-generated.yml#/components/schemas/GetV1DsProjectsRec9381Response",
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "data": {
+      "type": "object",
+      "description": "Project record data"
+    },
+    "data.id": {
+      "type": "string"
+    },
+    "data.name": {
+      "type": "string"
+    },
+    "data.status": {
+      "type": "string"
+    },
+    "data.owner": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+# Docyrus
+
+> Docyrus is a U.S.-based AI Native B2B SaaS platform for building intelligent apps, agents, and portals. Deploy free, then pay only for the infrastructure your workflows actually consume.
+
+> Turkish site directory: https://docyrus.com/tr/llms.txt
+
+## Start Here
+
+- [Docyrus](https://docyrus.com/): Overview of the Docyrus platform for AI-native apps, agents, portals, and workflow infrastructure.
+
+## Category Hubs
+
+- [Platform - Docyrus](https://docyrus.com/platform/): Explore the Docyrus platform: AI builders, core building blocks, developer tools, and finished products for humans and agents.
+- [AI Builders - Docyrus](https://docyrus.com/platform/builders/): Generate working web apps, AI agents, mobile apps, and customer portals with the Docyrus AI builders, each backed by real data, permissions, and workflows.
+- [Building Blocks - Docyrus](https://docyrus.com/platform/building-blocks/): The core infrastructure behind every Docyrus app and agent: auth, data, workflows, integrations, security, and more.
+- [Developers - Docyrus](https://docyrus.com/platform/developers/): APIs, CLI, MCP tools, UI components, agent skills, and AI coding assistance for teams building directly on Docyrus.
+- [Products - Docyrus](https://docyrus.com/platform/products/): Docyrus products for humans and AI agents: web, desktop, and mobile apps, a Chrome extension, and the Docyrus CLI App for headless, agent-driven work.
+- [Docyrus Products for Humans](https://docyrus.com/platform/products/for-humans/): Docyrus products for people: the Web App, a native Desktop App, the iOS and Android Mobile App, and a Chrome extension for quick access to Docy and Cody.
+- [Docyrus Products for Agents](https://docyrus.com/platform/products/for-agents/): Docyrus products built for AI agents and automation, starting with the Docyrus CLI App for headless authentication, discovery, schema, and data workflows.
+- [Solutions - Docyrus](https://docyrus.com/solutions/): Docyrus apps and AI agents for sales, marketing, HR, customer service, and project management teams, combined into a working setup for each function.
+- [Community - Docyrus](https://docyrus.com/community/): The Docyrus developer hub, with APIs, MCP tools, agent skills, and open source SDKs, plus a partner network for companies growing their business with Docyrus.
+- [Partner Products - Docyrus](https://docyrus.com/partner-products/): Vertical products that Docyrus partners build on the Docyrus platform for specific industries, such as Attornaid for legal operations teams.
+
+## Products
+
+- [AI Web App Builder](https://docyrus.com/platform/builders/ai-web-app-builder/): Build internal tools, portals, and MVPs with real data, permissions, and workflows.
+- [AI Portal Builder](https://docyrus.com/platform/builders/ai-portal-builder/): Build secure, branded portals for self-service, collaboration, and AI-assisted support.
+- [AI Agent Builder](https://docyrus.com/platform/builders/ai-agent-builder/): Create, train, and deploy AI agents for your specific workflows.
+- [AI Mobile App Builder](https://docyrus.com/platform/builders/ai-mobile-app-builder/): Build iOS and Android apps with shared data, secure sign-in, and native device features.
+- [Docyrus Desktop App](https://docyrus.com/platform/products/for-humans/docyrus-desktop-app/): Use Docyrus in a native desktop app for apps, AI assistance, and build workflows.
+- [Docyrus Web App](https://docyrus.com/platform/products/for-humans/docyrus-web-app/): Browser-based Docyrus operating surface for apps, agents, and build-adjacent work.
+- [Docyrus Mobile App](https://docyrus.com/platform/products/for-humans/docyrus-mobile-app/): Docyrus Mobile App for iOS and Android. Access your apps, work with Docy, manage records, and trigger workflows on the go.
+- [Docyrus Chrome Extension](https://docyrus.com/platform/products/for-humans/docyrus-chrome-extension/): Browser extension that gives quick access to Docy, Cody, Opsy, and Studio from Chrome.
+- [Docyrus CLI App](https://docyrus.com/platform/products/for-agents/docyrus-cli-app/): Headless terminal control surface for authentication, discovery, schema, and data workflows.
+
+## Platform (Building Blocks)
+
+- [Headless Architecture](https://docyrus.com/platform/building-blocks/headless-architecture/): Run shared actions, permissions, and workflows across UI, APIs, automations, and agents through one execution system.
+- [Data Infrastructure](https://docyrus.com/platform/building-blocks/data-infrastructure/): Transactional data, reporting, vector search, and realtime updates from one data source.
+- [AI Agent Framework](https://docyrus.com/platform/building-blocks/ai-agent-framework/): Create, orchestrate, and deploy intelligent AI assistants.
+- [Auth & ACL](https://docyrus.com/platform/building-blocks/auth-acl/): Secure sign-in and record-level access control.
+- [Workflow Automations](https://docyrus.com/platform/building-blocks/workflow-automations/): Event-driven workflows with AI steps and approval gates.
+- [Integrations & Connectors](https://docyrus.com/platform/building-blocks/integrations-connectors/): Pre-built connectors, webhooks, and scalable integration patterns.
+- [Reports & Dashboards](https://docyrus.com/platform/building-blocks/reports-dashboards/): Real-time reports and dashboards with charts, KPIs, and portal embedding.
+- [Real-time Collaboration](https://docyrus.com/platform/building-blocks/realtime-collaboration/): Presence, live cursors, shared state, and conflict handling.
+- [Deployment & Publishing](https://docyrus.com/platform/building-blocks/deployment-publishing/): Reliable environments, custom domains, and safe releases.
+- [Security & Governance](https://docyrus.com/platform/building-blocks/security-governance/): Enterprise-grade controls, auditability, and compliance.
+
+## Developers
+
+- [AI Coding](https://docyrus.com/platform/developers/ai-coding/): AI coding assistant inside the Docyrus IDE for completion, refactoring, and error fixes.
+- [Docyrus API](https://docyrus.com/platform/developers/api/): Production-grade REST API for data-driven SaaS apps and AI Native experiences.
+- [Docyrus CLI App](https://docyrus.com/platform/products/for-agents/docyrus-cli-app/): Developer tooling and command-line workflows for the Docyrus platform.
+- [UI Components](https://docyrus.com/platform/developers/ui-components/): Accessible headless primitives, polished UI blocks, and data-bound components.
+- [Agent Skills](https://docyrus.com/platform/developers/agent-skills/): Reusable skill packs for AI agents.
+- [Data MCP](https://docyrus.com/platform/developers/data-mcp/): Secure, CRUD-capable MCP tools for AI agent data access.
+- [Open Source](https://docyrus.com/platform/developers/open-source/): Client SDKs, auth helpers, UI primitives, and MCP tools.
+- [Developer Hub](https://docyrus.com/community/developers/): APIs, UI components, MCP tools, agent skills, and open-source SDKs for Docyrus builders.
+
+## Solutions
+
+- [Sales](https://docyrus.com/solutions/sales/): Sales apps and AI agents to build a revenue engine your team trusts.
+- [Marketing](https://docyrus.com/solutions/marketing/): Unified marketing apps and AI agents to orchestrate growth.
+- [HR](https://docyrus.com/solutions/hr/): HR apps and AI agents that scale with your organization.
+- [Service](https://docyrus.com/solutions/service/): Service apps and AI agents for fast, consistent, intelligent support.
+- [Project Management](https://docyrus.com/solutions/project-management/): Project management apps and AI agents connecting planning, delivery, and outcomes.
+- [E-commerce](https://docyrus.com/solutions/ecommerce/): E-commerce apps and AI agents to run marketplaces and your web store from one system.
+
+## Apps
+
+- [App Gallery](https://docyrus.com/apps/): Browse ready-to-use business applications built on Docyrus for common operational workflows.
+- [Sales CRM](https://docyrus.com/apps/sales-crm/): Manage pipeline and customer relationships in a Docyrus app template.
+- [E-commerce Suite](https://docyrus.com/apps/ecommerce-suite/): Run your marketplaces and web store from one panel with orders, stock, payouts, customers, and AI.
+- [Project Management](https://docyrus.com/apps/project-management/): Plan, track, and deliver projects with AI-assisted workflows.
+- [Submit Your App](https://docyrus.com/apps/submit/): Build an AI-native app on Docyrus and publish it to the gallery.
+
+## AI Agents
+
+- [Agent Gallery](https://docyrus.com/agents/): Browse ready-to-use AI agents for sales, HR, marketing, service, and operations.
+- [Chief Researcher](https://docyrus.com/agents/chief-researcher/): AI research partner for discovery, analysis, and knowledge-driven decision-making.
+- [Docy](https://docyrus.com/agents/docy/): Docyrus AI assistant for everyday tasks.
+- [Cody](https://docyrus.com/agents/cody/): Native AI coding assistant inside the Docyrus IDE.
+- [General Purpose](https://docyrus.com/agents/general-purpose/): Flexible agent for broad day-to-day needs.
+- [Data Scientist](https://docyrus.com/agents/data-scientist/): Analyze data and generate insights automatically.
+- [Spreadsheet Engineer](https://docyrus.com/agents/spreadsheet-engineer/): AI spreadsheet specialist for creating, editing, and formatting workbooks.
+- [Presentation Crafter](https://docyrus.com/agents/presentation-crafter/): Build polished slide content from your inputs.
+- [Image Generator](https://docyrus.com/agents/image-generator/): Generate visual assets for campaigns and docs.
+- [Diagram Genius](https://docyrus.com/agents/diagram-genius/): Design process diagrams and architecture maps.
+- [Submit Your Agent](https://docyrus.com/agents/submit/): Build an AI agent on Docyrus and publish it to reach thousands of teams.
+
+## Glossary
+
+- [Docyrus Glossary](https://docyrus.com/glossary/): A 313-term bilingual glossary defining Docyrus-specific concepts, each addressable at /glossary/#<term-id>.
+
+## Pricing
+
+- [Pricing](https://docyrus.com/pricing/): Usage-based pricing for apps, agents, and portals with full platform access included.
+- [Pricing Guide (Markdown)](https://docyrus.com/pricing.md): Machine-readable pricing guide with plans, overages, support tiers, add-ons, and quoting logic.
+
+## Company
+
+- [About](https://docyrus.com/company/): Founded in 2024 in the United States, with roots dating back to 2009.
+- [Enterprise](https://docyrus.com/enterprise/): Compliance-oriented enterprise AI platform with ISO and SOC-aligned positioning.
+- [Contact](https://docyrus.com/contact/): Sales contact details for Docyrus in San Francisco, CA.
+- [Partner Network](https://docyrus.com/community/partner-network/): Grow your business by partnering with Docyrus.
+- [Attornaid](https://docyrus.com/partner-products/attornaid/): Legal operations solution built on the Docyrus platform.
+- [Premium Pilot Program](https://docyrus.com/build-with-docyrus/): Apply for a guided pilot program to build AI-native apps, automations, and agent workflows tailored to your business processes.
+
+## WebMCP Tools
+
+- [WebMCP: Platform, Catalog, Pricing & Contact Tools](https://docyrus.com/): document.modelContext is the standard Chrome WebMCP API available on every docyrus.com page. Call getTools() to discover tools, then executeTool(tool, JSON.stringify(args)) to invoke them. Docyrus is an AI Native application development and publishing platform, not a CRM or single-purpose SaaS product. Sales CRM and similar apps are examples built on the platform. Available tools: get_platform_overview (no args), list_apps (query?, category?), get_app_details (slug), list_agents (query?, category?, gallery_group?), get_agent_details (slug), list_pricing_plans (no args), estimate_docyrus_cost (runs, ai_credits, plan_id?, support_id?, users?), recommend_plan (runs, ai_credits, users; all required), submit_sales_inquiry (firstname, lastname, email, phone, company_website, how_can_we_help_you). Pricing note: Docyrus does NOT charge per seat; user count is a plan-eligibility check only, not a cost multiplier. Starter plan is free for the first 6 months when billed annually only; monthly billing starts at $36/month from day one.
+
+## Legal
+
+- [Privacy Policy](https://docyrus.com/privacy-policy/): How Docyrus collects, uses, and protects your data.
+- [Terms of Services](https://docyrus.com/terms-of-services/): Terms governing subscriptions, usage, and service commitments.
+- [Cookie Policy](https://docyrus.com/cookies/): How Docyrus uses cookies and similar technologies.
+- [Chrome Extension Privacy Notice](https://docyrus.com/chrome-extension-privacy/): How the Docyrus Chrome extension handles data on your device. No remote tracking, no profiling.

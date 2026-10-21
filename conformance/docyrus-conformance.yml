@@ -1,0 +1,38 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docyrus.com/platform/building-blocks/security-governance/
+sources:
+- https://docyrus.com/platform/building-blocks/security-governance/
+- https://docyrus.com/privacy-policy/
+- https://docyrus.com/chrome-extension-privacy/
+- https://docyrus.com/platform/building-blocks/security-governance/
+standards:
+- id: soc2
+  conforms: true
+  evidence: Compliance status 4 of 4 active SOC2 HIPAA GDPR ISO 27001
+- id: hipaa
+  conforms: true
+  evidence: Compliance status 4 of 4 active SOC2 HIPAA GDPR ISO 27001
+- id: gdpr
+  conforms: true
+  evidence: Compliance status 4 of 4 active SOC2 HIPAA GDPR ISO 27001
+- id: iso-27001
+  conforms: true
+  evidence: Compliance status 4 of 4 active SOC2 HIPAA GDPR ISO 27001
+- id: soc2
+  conforms: true
+  evidence: Compliance Ready SOC 2 Type II, HIPAA, and GDPR-ready with data residency.
+- id: openapi-3.1
+  conforms: true
+  evidence: the document declares 3.1.0
+- id: oauth2
+  conforms: false
+  evidence: no securitySchemes declared
+- id: rfc9457
+  conforms: false
+  evidence: no response declares application/problem+json
+- id: idempotency
+  conforms: false
+  evidence: no idempotency key parameter on mutating operations
+docs: https://docyrus.com/platform/building-blocks/security-governance/
